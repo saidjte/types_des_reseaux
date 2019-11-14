@@ -1,0 +1,82 @@
+@import url("fonts/fonts.css");
+body {
+    font-family: Chapbook;
+    width: 80%;
+    margin: auto;
+    background-image: url("../img/texture.jpg");
+}
+
+.logo {
+    text-align: center;
+}
+
+nav{
+    background-color: #e8aece;
+    text-align: center;
+    font-family: UTMNeutra;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 1%;
+}
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    border-bottom: 3px solid #1f0568;
+}
+
+img#imgtop {
+    display: block;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+main{
+    display: flex;
+}
+article{
+    width: 66%;
+    margin: auto;
+    border-right: 1px solid #986767;
+     padding: 2%; 
+}
+aside{
+    width: 30%;
+    text-align: center;
+    padding: 1%;
+}
+main,aside,nav{
+    -webkit-box-shadow: inset 0px 0px 11px 4px rgba(158, 140, 140, 0.75);
+    -moz-box-shadow: inset 0px 0px 11px 4px rgba(158, 140, 140, 0.75);
+     box-shadow: inset 0px 0px 11px 4px rgba(158, 140, 140, 0.75);
+
+}
+aside #wiki{
+    width: 66%;
+}
+h1{
+    text-align: center;
+    font-family: '3954';
+}
+table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    padding: 1%;
+  }
+  a.toup img {
+    width: 22px;
+    float: left;
+}
+img.imgart {
+    float: right;
+    width: 25%;
+    border-radius: 50%;
+}

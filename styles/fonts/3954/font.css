@@ -1,0 +1,11 @@
+@font-face {
+	font-family: '3954';
+	src: url('./3954.eot');
+	src: local('3954'), url('./3954.woff') format('woff'), url('./3954.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_59766">Text with this font applied</p> */
+.fontsforweb_fontid_59766 {
+	font-family: '3954' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
