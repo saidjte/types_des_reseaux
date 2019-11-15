@@ -84,7 +84,7 @@ img.imgart:hover{
     border-radius: 15%;
 }
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 800px){
     main{
         display: flex;
         flex-direction: column;
@@ -99,7 +99,12 @@ img.imgart:hover{
         border-right: 1px solid #986767;
         padding: 2%;
     }
+    nav ul li {
+        display: block;
+        margin: 1%;
+    }
 }
+
 
 footer{
     margin: auto;
@@ -133,6 +138,11 @@ article , aside ,footer{
 
 }
 
+article img , aside img, h1,h2,p{
+    -webkit-animation: scale-up-top 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-top 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+}
 
 /**
  * ----------------------------------------
