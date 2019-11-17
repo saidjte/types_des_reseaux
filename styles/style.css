@@ -75,9 +75,8 @@ table {
     border: 2px solid rgb(83, 29, 29);
     padding: 1%;
   }
-  a.toup img {
+.toup img {
     width: 22px;
-    float: left;
 }
 img.imgart {
     float: right;
@@ -117,6 +116,21 @@ footer{
 }
 footer h2{
     text-align: center;
+}
+
+#smn{
+    text-align: center;
+    display: block;
+    font-size: 33px;
+}
+i.fab.fa-facebook-f:hover {
+    color: #0004ff;
+}
+i.fab.fa-twitter:hover {
+    color: rgb(0, 174, 255);
+}
+i.fab.fa-youtube:hover {
+    color: red;
 }
 
 /* ----------------------------------------------
