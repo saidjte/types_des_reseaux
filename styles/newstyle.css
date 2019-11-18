@@ -216,5 +216,13 @@ body{
   }
 #lan ,#man ,#wan ,#autre_resaux {
     box-shadow: inset 0px 0px 33px 0px #080021;
-    padding: 1%;
+}
+/* ================================ */
+@media screen and (max-width: 800px){
+    #les_types_des_resaeux{
+        flex-direction: column;
+    }
+    #lan ,#man ,#wan{
+        width: 100%;
+    }
 }
