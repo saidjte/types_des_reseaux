@@ -99,6 +99,11 @@ i.fab.fa-twitter-square:hover {
 i.fab.fa-youtube-square:hover {
     color: red;
 }
+i.fab.fa-discord:hover {
+    color: rgb(12, 176, 218);
+}
+
+
 /* ====================autre_resaux======================= */
 #autre_resaux table {
         border-collapse: collapse;
