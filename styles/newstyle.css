@@ -1,0 +1,220 @@
+@import url("fonts/fonts.css");
+body {
+    width: 89%;
+    margin: auto;
+    background-image: url("../img/texture.jpg");
+    font-family: Chapbook;
+    font-size: 17px;
+}
+#definition{
+    background-image: url("../img/reseaux.jpg");
+    background-size: cover;
+    padding: 2%;
+}
+#definition p,#definition h1,#definition li,#definition a ,#autre_resaux a{
+    color: white;
+}
+#les_types_des_resaeux {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+img.imgart {
+    width: 44%;
+}
+footer {
+    display: flex;
+}
+#lan,#man,#wan {
+    text-align: center;
+    margin: 1%;
+    /*background: linear-gradient(0deg, rgb(81, 118, 187) 0%, rgb(65, 153, 214) 51%, rgb(33, 83, 142) 100%);*/
+    background-image: url("../img/Supports.jpg");
+    background-size: cover;
+    opacity: 0.75;
+    border-radius: 11%;
+    color: white;
+    padding: 2%;
+    width: 20px;
+}
+#lan a,#man a,#wan a{
+    color: white;
+}
+#lan ,#man ,#wan{
+    flex: 1;
+}
+#lan img,#man img,#wan img{
+    background: white;
+    border-radius: 27%;
+}
+h2,h1{
+    text-align: center;
+    font-family: '3954';
+}
+
+#socialmedia li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 31px;
+}
+/* -------------------------------nav-------------------------------------- */
+nav{
+    text-align: left;
+    font-family: GOHAN;
+    width: 66%;
+    font-size: 19px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    padding: 1%;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background: #88a6fa;
+}
+
+header {
+    display: flex;
+    height: 1%;
+}
+header img {
+    height: 66px;
+    width: 14%;
+}
+
+i.fab.fa-facebook-square:hover {
+    color: #0004ff;
+}
+i.fab.fa-twitter-square:hover {
+    color: rgb(0, 174, 255);
+}
+i.fab.fa-youtube-square:hover {
+    color: red;
+}
+/* ====================autre_resaux======================= */
+#autre_resaux table {
+        border-collapse: collapse;
+      }
+#autre_resaux table, th, td {
+        border: 2px solid rgb(255, 255, 255);
+        padding: 1%;
+      }
+
+      #autre_resaux {
+        opacity:0.75;
+        background-image: url("../img/Supports.jpg");
+        color: white;
+        text-shadow: 11px 11px 11px #000000;
+        padding:3%;
+        background-size: cover;
+        border-radius: 11% 0%;
+    }
+/*======================footer=============================*/
+#def_web_net ,#wiki{
+    margin: 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0px 0px 5px #00a1ff;
+}
+
+#wiki {
+    background-image: url(../img/Wikipedia-logo-v2-fr.svg.png);
+}
+#def_web_net {
+    background-image: url(../img/wikibooks.png);
+}
+
+/* ==================== Animation ===================== */
+
+body{
+    -webkit-animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.logo,nav,#socialmedia{
+	-webkit-animation: scale-up-top 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+#definition{
+    -webkit-animation: scale-up-top 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-top 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+/**
+ * ----------------------------------------
+ * animation scale-up-top
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-up-top {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+    }
+  }
+  @keyframes scale-up-top {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+    }
+  }
+
+  /*---------------------------------------------------------------------------*/
+
+  #les_types_des_resaeux {
+	-webkit-animation: scale-up-hor-center 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-center 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+#lan,#man,#wan,#autre_resaux ,#def_web_net,#wiki{
+	-webkit-animation: scale-up-top 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-top 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-hor-center {
+    0% {
+      -webkit-transform: scaleX(0.4);
+              transform: scaleX(0.4);
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+    }
+  }
+  @keyframes scale-up-hor-center {
+    0% {
+      -webkit-transform: scaleX(0.4);
+              transform: scaleX(0.4);
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+    }
+  }
+#lan ,#man ,#wan ,#autre_resaux ,#def_web_net,#wiki{
+    box-shadow: inset 0px 0px 33px 0px #080021;
+    padding: 1%;
+}
