@@ -214,7 +214,7 @@ body{
               transform: scaleX(1);
     }
   }
-#lan ,#man ,#wan ,#autre_resaux ,#def_web_net,#wiki{
+#lan ,#man ,#wan ,#autre_resaux {
     box-shadow: inset 0px 0px 33px 0px #080021;
     padding: 1%;
 }
